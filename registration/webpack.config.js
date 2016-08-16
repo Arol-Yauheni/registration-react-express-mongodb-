@@ -48,6 +48,7 @@ module.exports = {
     host: 'localhost',
     port: 8080,
     hot: true,
+    historyApiFallback: true,
     contentBase: path.join(__dirname, 'public')
   }
 };
